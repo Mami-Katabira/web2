@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Kiro.labo スキンケア研究・プロダクツ</title>
+    <meta name="description" content="これはHTMLCSSJSを用いた自主制作サイトです。">
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+
+    <!-- css -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="top">
+        <!-- header -->
+        <header class="page_header">
+            <h1 class="logo">
+                <a href="./"><img src="images/common/logo.svg" alt="Kiro.labo"></a>
+            </h1>
+            <div class="openbtn"><span></span><span></span></div>
+            <nav>
+                <ul class="main_nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="#">SHOPPING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="h_sns">
+                <a href="#" target="#"><i class="insta"></i></a>
+                <a href="#" target="#"><i class="twitter"></i></a>
+                <a href="#" target="#"><i class="youtube"></i></a>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main>
+            <!-- スクロール -->
+            <div class="scrolldown"><span>Scroll</span></div>
+
+            <div class="top_mv">
+                <figure>
+                    <img src="images/top/top_hero.jpg" alt="photo" class="visible">
+                </figure>
+                <div class="top_txt">
+                    <h2 class="fadeUp">Kiro.Labo<br>Skincare Products</h2>
+                </div>
+            </div><!-- top_mv -->
+
+             <!-- about -->
+             <div class="top_about">
+                <div class="top_about_wrap">
+                    <figure>
+                        <img src="images/top/top_about01.jpg" alt="photo1" class="visible">
+                    </figure>
+                    <p>「嘘のない、スキンケア。」<br>
+                        　誕生から<span>50</span>年。<br>　待望の日本販売が始まりました。<br>
+                        　自然のチカラをそのまま伝え、<br>　肌を真実の美しさに導きます。</p>
+                </div>
+                <div class="photo_gallery">
+                    <figure>
+                        <img src="images/top/top_about02.jpg" alt="photo2" class="visible">
+                    </figure>
+                    <figure>
+                        <img src="images/top/top_about03.jpg" alt="photo3" class="visible">
+                    </figure>
+                </div>
+                <div class="button">
+                    <a href="about.html">About</a>
+                </div>
+            </div><!-- about -->
+
+            <!-- news -->
+            <div class="top_news">
+                <div class="top_news_wrap">
+                    <div class="top_news_title fadeUpTrigger">
+                        <h3>News</h3>
+                        <p>新商品のご案内や、<br>体験型イベントを多くご用意しております。</p>
+                    </div>
+                    <div class="top_news_title">
+                        <ul class="top_news_story">
+                            <li>
+                                <a href="news.html">
+                                    <figure><img src="images/top/top_news01.jpg" alt="news01"></figure>
+                                    <figcaption><span>2023.02.22</span>最高級モイストを実感。<br>美容コスメ大賞に輝いた「Rolls」<br>増量キャンペーンがスタート！</figcaption>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="news.html">
+                                    <figure><img src="images/top/top_news02.jpg" alt="news02">
+                                    </figure>
+                                    <figcaption><span>2023.01.20</span>女優、三井ともかさんの美肌ルーティンを大公開！効果の上がる塗り方を伝授。<br>
+                                    </figcaption>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="news.html">News</a>
+                </div>
+            </div><!-- news -->
+
+        <!-- TOPへ戻るボタン出現位置 -->
+        <div class="backToTop">
+            <!-- movie --> 
+            <div class="top_movie">
+                <video autoplay loop src="images/top/top_base.mp4"  alt="movie" class="fadeUpTrigger"></video>
+            </div><!-- movie -->
+
+            <!-- SHOPPING -->
+            <div class="shopping_wrap">
+                <p id="shopping_txt"><a href="#">SHOPPING</a></p>
+                <p>お買物はこちらから！サンプル配布中です。</p>
+            </div><!-- shopping -->
+        </main>
+    </div><!-- div id="top" -->
+
+    <!-- footer -->
+    <footer>
+        <p id="page-top" class="hide-btn"><a href="#">Page Top</a></p>
+        <p class="sns">
+            <a href="#" target="#"><i class="insta"></i></a>
+            <a href="#" target="#"><i class="twitter"></i></a>
+            <a href="#" target="#"><i class="youtube"></i></a>
+        </p>
+        <p><small>&copy; 2023 mami katabira</small></p>
+    </footer><!-- footer -->
+    </div><!-- /.backToTOp -->
+</body>
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/script.js" charset="utf-8"></script>
+
+</html>
